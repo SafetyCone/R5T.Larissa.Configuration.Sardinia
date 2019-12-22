@@ -22,6 +22,7 @@ namespace R5T.Larissa.Configuration
             var rawSvnConfiguration = this.RawSvnConfiguration.Value;
 
             options.SvnExecutableFilePath = rawSvnConfiguration.SvnExecutableFilePath;
+            options.SvnversionExecutableFilePath = rawSvnConfiguration.SvnversionExecutableFilePath;
         }
     }
 }

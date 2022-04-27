@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Options;using R5T.T0064;
 
 
 namespace R5T.Larissa.Configuration
-{
-    public class ConfigurationBasedSvnversionExecutableFilePathProvider : ISvnversionExecutableFilePathProvider
+{[ServiceImplementationMarker]
+    public class ConfigurationBasedSvnversionExecutableFilePathProvider : ISvnversionExecutableFilePathProvider,IServiceImplementation
     {
         private IOptions<SvnConfiguration> SvnConfiguration { get; }
 

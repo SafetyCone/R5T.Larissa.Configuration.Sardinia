@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Larissa.Configuration.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Larissa.Configuration.Sardinia.Testing", "R5T.Larissa.Configuration.Sardinia.Testing\R5T.Larissa.Configuration.Sardinia.Testing.csproj", "{B8A09C40-FE72-4969-BB59-8997393E2D24}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{542B5370-761D-4648-8DA7-7619DD9F926B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{F28C8FB6-5C5A-4737-8F16-927D02D8B26B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{B8A09C40-FE72-4969-BB59-8997393E2D24}.Release|x64.Build.0 = Release|Any CPU
 		{B8A09C40-FE72-4969-BB59-8997393E2D24}.Release|x86.ActiveCfg = Release|Any CPU
 		{B8A09C40-FE72-4969-BB59-8997393E2D24}.Release|x86.Build.0 = Release|Any CPU
+		{F28C8FB6-5C5A-4737-8F16-927D02D8B26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28C8FB6-5C5A-4737-8F16-927D02D8B26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28C8FB6-5C5A-4737-8F16-927D02D8B26B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F28C8FB6-5C5A-4737-8F16-927D02D8B26B}.Debug|x64.Build.0 = Debug|Any CPU
+		{F28C8FB6-5C5A-4737-8F16-927D02D8B26B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F28C8FB6-5C5A-4737-8F16-927D02D8B26B}.Debug|x86.Build.0 = Debug|Any CPU
+		{F28C8FB6-5C5A-4737-8F16-927D02D8B26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28C8FB6-5C5A-4737-8F16-927D02D8B26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28C8FB6-5C5A-4737-8F16-927D02D8B26B}.Release|x64.ActiveCfg = Release|Any CPU
+		{F28C8FB6-5C5A-4737-8F16-927D02D8B26B}.Release|x64.Build.0 = Release|Any CPU
+		{F28C8FB6-5C5A-4737-8F16-927D02D8B26B}.Release|x86.ActiveCfg = Release|Any CPU
+		{F28C8FB6-5C5A-4737-8F16-927D02D8B26B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F28C8FB6-5C5A-4737-8F16-927D02D8B26B} = {542B5370-761D-4648-8DA7-7619DD9F926B}
 	EndGlobalSection
 EndGlobal

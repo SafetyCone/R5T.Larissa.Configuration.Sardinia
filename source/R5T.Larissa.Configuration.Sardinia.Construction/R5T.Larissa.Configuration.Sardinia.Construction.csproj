@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
     <ProjectReference Include="..\R5T.Larissa.Configuration.Sardinia\R5T.Larissa.Configuration.Sardinia.csproj" />
   </ItemGroup>
